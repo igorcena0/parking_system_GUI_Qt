@@ -1,0 +1,42 @@
+# Pliki tymczasowe Qt Creator
+*.autosave
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Build artefakty
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# Katalogi buildów
+build*/
+debug/
+release/
+x64/
+x86/
+*.app
+
+# CMake lub QMake generowane pliki
+CMakeFiles/
+CMakeCache.txt
+Makefile
+moc_*
+ui_*
+qrc_*
+
+# Qt Creator lokalne konfiguracje projektu
+.vs/
+.idea/
+*.user
+*.user.*
+*.sln
+
+# Systemowe/IDE-owe
+.DS_Store
+Thumbs.db
